@@ -45,7 +45,7 @@ def dhaku():
 def game():
     return render_template("game.html")
 @app.route("/requst")
-def index():
+def requst():
     return render_template("requst.html")
 
 
